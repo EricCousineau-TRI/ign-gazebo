@@ -45,7 +45,7 @@ using ComponentTypeKey = std::set<ComponentTypeId>;
 /// use a cache to improve performance. The assumption is that entities
 /// and the types of components assigned to entities change infrequently
 /// compared to the frequency of queries performed by systems.
-class IGNITION_GAZEBO_VISIBLE View
+class IGNITION_GAZEBO_HIDDEN View
 {
   /// Get a pointer to a component for an entity based on a component type.
   /// \param[in] _entity The entity.
